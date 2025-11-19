@@ -25,3 +25,11 @@ Coloque aqui suas novas configurações
 - Verificar se o Administrador ou qualquer outro usuário tenha a senha.
 > Só assim será efetivada a conexão via RDP do windows. 
 
+
+### Erros do Baremetal 
+
+- O que pode acontecer e como você pode solucionar: 
+1. Erro de Disco
+> Geralmente os famosos erro gpt ou o windows não reconhecer o disco por metodo do boot escolhido, para resolver isso é bastante simples: Basta mudar diretamente na bios as configurações de leitura de disco ou forma como o mesmo é montado. **OBS:** Se estiver em RAID verifique como está feito para não haver erro e você conseguir se localizar na escolha do disco certto. 
+
+2. 
